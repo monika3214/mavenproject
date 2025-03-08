@@ -4,7 +4,7 @@ pipeline
  stages
     {
         stage('scm checkout')
-        { steps { git branch: 'master', url: 'https://github.com/prakashk0301/mavenproject.git' }}
+        { steps { git branch: 'master', url: 'https://github.com/monika3214/mavenproject.git' }}
 
 
         stage('compile the code')  //mnv compile command to compile the code
@@ -24,9 +24,7 @@ pipeline
           { sh 'mvn package' }} }  
 
 
-       stage('deploy to tomcat')
-       {steps { sshagent(['deploytotomcat']) 
-        { sh 'scp -o StrictHostKeyChecking=no webapp/target/webapp.war ec2-user@172.31.27.54:/usr/share/tomcat/webapps'  }} }
+      
 
 }
 }
