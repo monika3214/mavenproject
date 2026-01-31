@@ -299,10 +299,3 @@ In this blog, we learned how to build a Java web app using GitHub as our SCM, Je
 Resources Used:
 GitHub Link: https://github.com/mudasirhaji/Setup-CI-CD-with-Github-Jenkins-Maven-and-Tomcat-on-AWS.git
 
-Credits: Special thanks to Valaxy Technologies for their guidance.
-
-If this blog helped you in any way do let me know in the comments section and please follow and click the clap 👏 button below to show your support 😄
-
-Thanks
-
-Mudasir
